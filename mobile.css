@@ -2,9 +2,38 @@
 @media (max-width: 960px){
 	
 main.form-wrapper{
-width:500px;
-height:700px;
+width:400px;
+height:500px;
 }
+
+h1.contact{
+font-size:26px;
+padding:10px;
+}
+
+label{
+margin-top:30px;
+}
+
+input{
+width:60%;
+font-weight:600;
+height:25px;
+}
+
+textarea{
+width:205px;
+}
+p.title{
+font-size:17px;
+}
+
+button[type="submit"]{
+font-size:15px;
+padding:9px;
+width:100px;
+}
+
 }
 
 @media (max-width:768px){
@@ -13,6 +42,74 @@ height:700px;
 	height:600px;
 	}
 
+	textarea{
+	width:235px;
+		}
+}
+
+@media (max-width:468px){
+
+main.form-wrapper{
+width:360px;
+height:500px;
+}
+textarea{
+width:180px;
+}
+
+button{
+font-size:13px;
+padding:7px;
+width:90px;
+}
+
+@media (max-width: 376px){
+p.title{
+font-size:13px;
+}
+
+::placeholder{
+font-size:10px;
+}
+
+main.form-wrapper{
+width:330px;
+height:500px;
+}
+textarea{
+width:160px;
+}
+
+button{
+font-size:12px;
+padding:5px;  
+width:80px;
+}
 
 }
 
+@media (max-width: 323px){
+p.title{
+font-size:13px;
+}
+
+::placeholder{
+font-size:10px;
+}
+
+main.form-wrapper{
+width:310px;
+height:470px;
+}
+textarea{
+height:60px;
+width:151px;
+}
+
+button[type="button"]{
+font-size:10px;
+padding:3px;  
+width:50px;
+}
+
+}
