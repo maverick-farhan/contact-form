@@ -2,8 +2,9 @@
 @media (max-width: 960px){
 	
 main.form-wrapper{
-width:400px;
-height:500px;
+top:40%;
+width:500px;
+height:600px;
 }
 
 h1.contact{
@@ -22,7 +23,7 @@ height:25px;
 }
 
 textarea{
-width:205px;
+width:265px;
 }
 p.title{
 font-size:17px;
@@ -74,15 +75,16 @@ font-size:10px;
 
 main.form-wrapper{
 width:330px;
+padding:8px;
 height:500px;
 }
 textarea{
-width:160px;
+width:184px;
 }
 
 button{
 font-size:12px;
-padding:5px;  
+padding:7px;  
 width:80px;
 }
 
@@ -90,26 +92,27 @@ width:80px;
 
 @media (max-width: 323px){
 p.title{
-font-size:13px;
+font-size:12px;
 }
 
 ::placeholder{
-font-size:10px;
+font-size:9px;
 }
 
 main.form-wrapper{
+padding:6px;
 width:310px;
 height:470px;
 }
 textarea{
 height:60px;
-width:151px;
+width:177px;
 }
 
 button[type="button"]{
-font-size:10px;
-padding:3px;  
-width:50px;
+font-size:6px;
+padding:2px;  
+width:40px;
 }
 
 }
